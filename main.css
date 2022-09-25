@@ -1,0 +1,2 @@
+.accordion{margin-bottom:8px}.accordion__header{cursor:pointer;padding:4px 0}.accordion__body{background-color:#deb887;max-height:0;overflow:hidden;padding-left:12px;transition:max-height .2s ease-out}.accordion.is-active .accordion__header{background-color:#d3d3d3}
+/*# sourceMappingURL=main.css.map*/
