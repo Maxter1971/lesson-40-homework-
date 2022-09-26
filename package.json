@@ -11,13 +11,16 @@
     "dev": "webpack serve --node-env development",
     "start": "webpack --node-env start",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=fc87dcd1061e"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Maxter1971/chat.git"
   },
-  "author": "Max Terzhevik",
+  "author": {
+    "name": "Max Terzhevik"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Maxter1971/chat/issues"
@@ -49,6 +52,7 @@
     "babel-loader": "^8.2.5",
     "browserify-fs": "^1.0.0",
     "canvas": "^2.9.1",
+    "chromatic": "^6.10.0",
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.0.0",
     "eslint": "^8.23.1",
@@ -139,5 +143,7 @@
         "preset": "iPhone 7"
       }
     }
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "chat@1.0.0"
 }
